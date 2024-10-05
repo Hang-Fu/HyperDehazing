@@ -7,7 +7,6 @@
 
 </div>
 
-
 #
 
 ## Abstract
@@ -15,7 +14,7 @@ Haze contamination severely degrades the quality and accuracy of optical remote 
 
 ## Datasets
 
-HyperDehazing: 
+**HyperDehazing:**  
 1) Clear/haze-free HSIs covering 100 sences: [Clear HSIs](https://zenodo.org/records/13341168)
 2) Synthetic hazy HSIs corresponding clear HSIs: [Sences 1-20](https://zenodo.org/records/13342233), [Sences 21-40](https://zenodo.org/records/13345255), [Sences 41-60](https://zenodo.org/records/13347827), [Sences 61-80](https://zenodo.org/records/13348682), [Sences 81-100](https://zenodo.org/records/13351755)
 3) Real hazy HSIs covering 70 scenes: [Real hazy HSIs](https://zenodo.org/records/13351766)
@@ -24,23 +23,24 @@ HyperDehazing:
 <img src="data.png" />
 </div>
 
-Other dataset:
-
+**Other dataset:**  
 HDD: Available from ([Paper](https://ieeexplore.ieee.org/document/9511329))
 
+## Proposed HyperDehazeNet  
 
-## Other dehazing methods
+The proposed HyperDehazeNet consists of two branches: the main branch (MB), an end-to-end full-wavelength attention network, and the auxiliary branch (AB), a longwave scene-based attention network. They are designed to leverage haze-insensitive scene details from longwave for comprehensive dehazing across all bands. Both the Feature Fusion Attention Blocks (FFAB) within the main branch and the Spatial Scene Attention Blocks (SSAB) within the auxiliary branch are designed to concentrate on haze-affected regions to enhance scene reconstruction. Residual blocks (RB) and skip connections support global residual learning and the fusion of deep and shallow features. 
 
-SG-Net:([Code](https://github.com/SZU-AdvTech-2022/158-A-Spectral-Grouping-based-Deep-Learning-Model-for-Haze-Removal-of-Hyperspectral-Images))
+<div align="center">
+<img src="method.png" />
+</div>
 
-AACNet: ([Code](http://www.jiasen.tech/papers/))
+## Other dehazing methods  
 
-DehazeFormer:([Code](https://github.com/IDKiro/DehazeFormer))
-
-AIDFormer:([Code](https://github.com/AshutoshKulkarni4998/AIDTransformer))
-
+SG-Net:([Code](https://github.com/SZU-AdvTech-2022/158-A-Spectral-Grouping-based-Deep-Learning-Model-for-Haze-Removal-of-Hyperspectral-Images))  
+AACNet: ([Code](http://www.jiasen.tech/papers/))  
+DehazeFormer:([Code](https://github.com/IDKiro/DehazeFormer))  
+AIDFormer:([Code](https://github.com/AshutoshKulkarni4998/AIDTransformer))  
 RSDformer:([Code](https://github.com/MingTian99/RSDformer))
-
 
 ## Acknowledgement
 This project is based on FFANet ([code](https://github.com/zhilin007/FFA-Net)). Thanks for their wonderful works.
