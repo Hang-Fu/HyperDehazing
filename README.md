@@ -22,7 +22,7 @@ Haze contamination severely degrades the quality and accuracy of optical remote 
 <div align="center">
 <img src="data.png" />
 </div>
-<br><br>
+<br>
 
 **Other dataset:**  
 
@@ -35,6 +35,7 @@ The proposed HyperDehazeNet consists of two branches: the main branch (MB), an e
 <div align="center">
 <img src="method.png" />
 </div>
+<br>
 
 ## Other dehazing methods  
 
