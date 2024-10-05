@@ -21,7 +21,7 @@ HyperDehazing:
 3) Real hazy HSIs covering 70 scenes: [Real hazy HSIs](https://zenodo.org/records/13351766)
 
 <div align="center">
-<img src="data.PNG" />
+<img src="data.png" />
 </div>
 
 Other dataset:
