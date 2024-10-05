@@ -23,6 +23,7 @@ Haze contamination severely degrades the quality and accuracy of optical remote 
 <img src="data.png" />
 </div>
 
+
 **Other dataset:**  
 
 Hyperspectral Defogging dataset (HDD): ([Paper](https://ieeexplore.ieee.org/document/9511329))
