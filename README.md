@@ -1,9 +1,10 @@
 <div align="center">
 <h1>HyperDehazing</h1>
-<h3>[HyperDehazing: A hyperspectral image dehazing benchmark dataset and a deep learning model for haze removal](https://www.sciencedirect.com/science/article/pii/S0924271624003721?via%3Dihub)</h3>
+<h3>HyperDehazing: A hyperspectral image dehazing benchmark dataset and a deep learning model for haze removal</h3>
 
 [Hang Fu](https://hang-fu.github.io/), [Genyun Sun](https://ocean.upc.edu.cn/2019/1107/c15434a224792/page.htm), [Jinchang Ren](https://www.xai-lab.org/), [Aizhu Zhang](https://ocean.upc.edu.cn/2019/1108/c15434a224913/page.htm), Li Zhang, Kai Yan, [Xiuping Jia](https://scholar.google.com/citations?user=-vl0ZSEAAAAJ&hl=en)
 
+Link: ([paper](https://doi.org/10.1016/j.isprsjprs.2024.09.034)) 
 
 </div>
 
