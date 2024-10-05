@@ -24,6 +24,7 @@ Haze contamination severely degrades the quality and accuracy of optical remote 
 </div>
 
 **Other dataset:**  
+
 HDD: Available from ([Paper](https://ieeexplore.ieee.org/document/9511329))
 
 ## Proposed HyperDehazeNet  
@@ -37,11 +38,16 @@ The proposed HyperDehazeNet consists of two branches: the main branch (MB), an e
 ## Other dehazing methods  
 
 SG-Net:([Code](https://github.com/SZU-AdvTech-2022/158-A-Spectral-Grouping-based-Deep-Learning-Model-for-Haze-Removal-of-Hyperspectral-Images))  
+
 AACNet: ([Code](http://www.jiasen.tech/papers/))  
+
 DehazeFormer:([Code](https://github.com/IDKiro/DehazeFormer))  
+
 AIDFormer:([Code](https://github.com/AshutoshKulkarni4998/AIDTransformer))  
+
 RSDformer:([Code](https://github.com/MingTian99/RSDformer))
 
 ## Acknowledgement
+
 This project is based on FFANet ([code](https://github.com/zhilin007/FFA-Net)). Thanks for their wonderful works.
 
